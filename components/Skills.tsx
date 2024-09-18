@@ -14,7 +14,10 @@ import {
 	SiNextdotjs,
 	SiTailwindcss,
 	SiMysql,
-	SiFirebase
+	SiFirebase,
+	SiSpring,
+	SiSpringboot,
+	SiPostgresql
 } from "react-icons/si";
 
 interface Skill {
@@ -31,8 +34,11 @@ const Skills: React.FC = () => {
 		{ name: "React", icon: <FaReact /> },
 		{ name: "Next.js", icon: <SiNextdotjs /> },
 		{ name: "Java", icon: <FaJava /> },
+		{ name: "Spring", icon: <SiSpring /> },
+		{ name: "Spring Boot", icon: <SiSpringboot /> },
 		{ name: "Node.js", icon: <FaNodeJs /> },
 		{ name: "MySQL", icon: <SiMysql /> },
+		{ name: "PostgreSQL", icon: <SiPostgresql /> },
 		{ name: "Tailwind CSS", icon: <SiTailwindcss /> },
 		{ name: "Python", icon: <FaPython /> },
 		{ name: "Figma", icon: <FaFigma /> },
